@@ -6,5 +6,147 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-first-row">
+          <div class="search">
+            <label for="search-input">
+              <img
+                class="icon header-icon"
+                src="./images/magnify.svg"
+                alt="search-input"
+              />
+            </label>
+            <input type="search" name="search-input" id="search-input" />
+          </div>
+          <div class="profile-menu">
+            <img
+              class="icon header-icon"
+              src="./images/bell-badge.svg"
+              width="30px"
+              alt="Bell Icon"
+            />
+            <img
+              class="avatar avatar.small"
+              src="./images/profile-photo.jpg"
+              alt="User profile"
+              width="100px"
+              height="100px"
+            />
+            <p class="user-name">Blaze Runner</p>
+          </div>
+        </div>
+        <div class="header-second-row">
+          <div class="greet-user">
+            <img
+              class="avatar avatar-big"
+              src="./images/profile-photo.jpg"
+              alt="User profile"
+              width="150px"
+              height="150px"
+            />
+            <div class="greeeting">
+              <p>Hi there,</p>
+              <h1>Blaze Runner (@blazer)</h1>
+            </div>
+          </div>
+          <div class="action-buttons">
+            <button class="new-button">New</button>
+            <button class="upload-button">Upload</button>
+            <button class="share-button">Share</button>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="title-group">
+          <img
+            src="./images/horse-variant.svg"
+            alt="horse-variant"
+            width="100px"
+            class="icon dashboard--icon"
+          />
+          <h1>Dashboard</h1>
+        </div>
+        <div class="middle-group">
+          <div class="home">
+            <img src="./images/home.svg" alt="home" class="icon sidebar-icon" />
+            <p>Home</p>
+          </div>
+          <div class="profile">
+            <img
+              src="./images/card-account-details-outline.svg"
+              alt="profile"
+              class="icon sidebar-icon"
+            />
+            <p>Profile</p>
+          </div>
+          <div class="messages">
+            <img
+              src="./images/message-badge.svg"
+              alt="message-badge"
+              class="icon sidebar-icon"
+            />
+            <p>Message</p>
+          </div>
+          <div class="history">
+            <img
+              src="./images/calendar-clock-outline.svg"
+              alt="history"
+              class="icon history-icon"
+            />
+            <p>History</p>
+          </div>
+          <div class="tasks">
+            <img
+              src="./images/assignment.svg"
+              alt="tasks"
+              class="icon task-icon"
+            />
+            <p>Tasks</p>
+          </div>
+          <div class="communities">
+            <img
+              src="./images/account-group.svg"
+              alt="communities"
+              class="icon communities-icon"
+            />
+            <p>Communities</p>
+          </div>
+        </div>
+        <div class="lower-group">
+          <div class="setting">
+            <img
+              src="./images/cog-outline.svg"
+              alt="setting"
+              class="icon setting-icon"
+            />
+            <p>Setting</p>
+          </div>
+          <div class="support">
+            <img
+              src="./images/support-agent.svg"
+              alt="support"
+              class="icon support-icon"
+            />
+            <p>Support</p>
+          </div>
+          <div class="privacy">
+            <img
+              src="./images/shield-lock.svg"
+              alt="privacy"
+              class="icon privacy-icon"
+            />
+            <p>Privacy</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="projects">
+          <div class="project project-1"></div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
 </html>
