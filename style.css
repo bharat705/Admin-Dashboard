@@ -217,7 +217,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 20px;
 
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .project {
@@ -255,7 +255,7 @@ body {
   flex-direction: column;
   gap: 20px;
 
-  margin: 20px 0px 40px;
+  margin: 5px 0px 40px;
   background-color: #ffffff;
   padding: 40px 20px;
   border-radius: 10px;
@@ -272,7 +272,7 @@ body {
   grid-template-rows: repeat(4, 1fr);
   gap: 20px;
 
-  margin: 20px 0px;
+  margin: 5px 0px 20px;
   background-color: #ffffff;
   padding: 40px 20px;
   border-radius: 10px;
